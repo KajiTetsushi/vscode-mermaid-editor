@@ -12,6 +12,39 @@ Mermaid Editor is vscode extension inspired by [official mermaid live editor](ht
 - Copy image to clipboard directly.
 - Customize configuration for individual `mmd` diagram by using atrribute which is available in this extension.
 
+-----
+
+> :construction: Work in progress. See https://github.com/tomoyukim/vscode-mermaid-editor/pull/73 for official updates. :construction:
+>
+> Can't wait for the merge? Follow along to get this update run locally!
+
+## What does this branch do?
+
+It adds support for more syntaxes shipped in [`mermaid@9.4.0`](https://github.com/mermaid-js/mermaid/releases/tag/v9.4.0).
+
+## Development and Testing
+
+1. Clone this repo and switch to it.
+    ```sh
+    git clone https://github.com/KajiTetsushi/vscode-mermaid-editor.git
+    cd vscode-mermaid-editor
+    ```
+
+2. Switch to this branch
+    ```sh
+    git checkout development-instructions
+    ```
+
+3. Install the project's dependencies.
+    ```sh
+    yarn
+    ```
+
+4. Run the extension. As it says in [the VScode documentation](https://code.visualstudio.com/api/get-started/your-first-extension):
+    > inside the editor, press `F5`. This will compile and run the extension in a new **Extension Development Host** window.
+
+-----
+
 ## Usage
 
 The extension's activated when opening `.mmd` file.
